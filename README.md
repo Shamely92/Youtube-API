@@ -17,3 +17,4 @@ The code checks for user input (channel ID) and a button click to fetch channel 
 After fetching and uploading the data to MongoDB, the script provides an option for the user to select channels for uploading the data to a MySQL database. It displays a multiselect input for channel selection and a button to upload the data to MySQL.
 
 When the button to upload data to MySQL is clicked, the script fetches channel details, video details, and comment details from the MongoDB collections. It establishes a connection to the MySQL database and inserts the data into corresponding tables using SQL queries. It uses pandas and the SQLAlchemy engine for the data insertion process.
+Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a question from that menu to analyse the data and show the output in Dataframe Table and Bar chart
