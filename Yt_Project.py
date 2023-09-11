@@ -48,7 +48,7 @@ with col1:
         # youtube API
         api_service_name = 'youtube'
         api_version = 'v3'
-        api_key = 'AIzaSyCDTiUXVejg9QPO9GFIv9mv74u_G2X9eyI'
+        api_key = 'AIzaSyA7-De9O5kKBSo8BZ6o8pAlcvIFJs3OgJY'
         youtube = build(api_service_name,api_version,developerKey =api_key)
 
 
